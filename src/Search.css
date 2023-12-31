@@ -1,0 +1,40 @@
+.Search{
+    display: flex;
+    background:linear-gradient(#012734 100%,rgba(3, 3, 3, 0.4)) ;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+    
+}
+.search_bar {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    margin-left: 330px;
+    width: 610px;
+    
+  }
+  
+  .button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: orangered;
+    transform: scale(1.05);
+    transition: ease 0.5s;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .search_bar {
+      width: 70%; /* Adjust the width for tablets as needed */
+      
+    }
+  }
+  

@@ -1,0 +1,43 @@
+.nav {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    justify-content: space-between;
+    width: 100%;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav_logo {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+    padding: 10px;
+}
+
+.login {
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vh;
+    margin: 20px ;
+    padding: 10px;
+    margin-right: 20px;
+    
+    
+    
+    background-color: #e50914;
+    
+}
+.login:hover{
+    background-color: orangered;
+    transform: scale(1.05);
+}
+.nav_background{
+    background-color: #012734;
+    border-bottom: 1px solid gray;
+}
